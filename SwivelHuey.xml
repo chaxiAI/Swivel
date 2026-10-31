@@ -181,8 +181,8 @@
 						<rectangle x="98" y="364" width="734" height="45" color="0xa6ffffff"/>
 						<rectangle x="98" y="409" width="734" height="45" color="0x40ffffff"/>
 						
-						<label text="输入 SWF" x="115" y="226" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
-						<label text="转换 SWF，或将多个 SWF 串接后连续转换" x="116" y="243" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+						<label text="输入 SWF" x="115" y="226" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
+						<label text="转换 SWF，或将多个 SWF 串接后连续转换" x="116" y="243" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 
 						<image x="438" y="204" source="listBoxBigBG"/>
 						<listBox x="438" y="204" name="_fileListBox"/>
@@ -206,10 +206,10 @@
 						<image source="dummybar" x="97" y="287"/>
 
 						<container name="swfSetupContainer">
-							<label text="录制时长" x="115" y="296" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
-							<label text="设定开始与结束录制的时间点" x="116" y="313" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+							<label text="录制时长" x="115" y="296" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
+							<label text="设定开始与结束录制的时间点" x="116" y="313" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 
-							<label text="帧范围" x="460" y="303" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137"/>
+							<label text="帧范围" x="460" y="303" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x000000"/>
 							
 							<radioGroup name="durationGroup"/>
 							<radioButton x="438" y="302" selected="true" group="durationGroup" name="frameRangeButton">
@@ -223,10 +223,10 @@
 							</radioButton>
 						
 							<container name="frameContainer">
-								<label text="开始：" x="677" y="303" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="false" color="0x425137"/>
+								<label text="开始：" x="677" y="303" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="false" color="0x000000"/>
 								<numericStepper x="715" y="299" name="startFrameStepper" minimum="1" maximum="1" value="1">
 									<image source="textFieldSmall"/>
-										<textBox width="66" textX="8" textY="2" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+										<textBox width="66" textX="8" textY="2" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 									<incButton>
 										<button x="88" y="0">
 											<upState><image source="btnIncUp"/></upState>
@@ -244,10 +244,10 @@
 								</numericStepper>
 
 								
-								<label text="结束：" x="685" y="333" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="false" color="0x425137"/>
+								<label text="结束：" x="685" y="333" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="false" color="0x000000"/>
 								<numericStepper x="715" y="329" name="endFrameStepper" minimum="1" maximum="1" value="1">
 									<image source="textFieldSmall"/>
-									<textBox width="66" textX="8" textY="2" font="AdvoCut_10pt_st" size="10" color="0x425137">
+									<textBox width="66" textX="8" textY="2" font="AdvoCut_10pt_st" size="10" color="0x000000">
 									</textBox>
 									<incButton>
 										<button x="88" y="0">
@@ -268,7 +268,7 @@
 
 							<image name="frameStepperImage" x="285" y="290" />
 
-							<label text="手动开始 / 结束录制" x="460" y="333" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137"/>
+							<label text="手动开始 / 结束录制" x="460" y="333" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x000000"/>
 							<radioButton x="438" y="332" group="durationGroup" name="manualButton">
 								<hitArea><rectangle x="0" y="0" width="300" height="23"/></hitArea>
 								<upState><image source="btnRadioUp"/></upState>
@@ -281,8 +281,8 @@
 
 							<image source="dummybar" x="97" y="362"/>
 
-							<label text="渲染质量" x="115" y="369" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
-							<label text="控制舞台的渲染质量" x="116" y="386" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+							<label text="渲染质量" x="115" y="369" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
+							<label text="控制舞台的渲染质量" x="116" y="386" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 							
 							<slider x="438" y="376" minimum="0" maximum="2" step="1" labelX="211" labelY="0" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137" labelFunc="qualitySliderFunc" name="qualitySlider">
 								<image source="sliderTrack"/>
@@ -291,8 +291,8 @@
 
 							<image source="dummybar" x="97" y="407"/>
 
-							<label text="位图平滑" x="115" y="416" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137" />
-							<label text="对所有位图强制平滑" x="116" y="433" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+							<label text="位图平滑" x="115" y="416" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000" />
+							<label text="对所有位图强制平滑" x="116" y="433" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 
 							<checkBox x="438" y="419" name="bitmapSmoothingCheckBox">
 								<upState><image source="btnCheckUp"/></upState>
@@ -316,8 +316,8 @@
 						<rectangle x="98" y="374" width="734" height="45" color="0xa6ffffff"/>
 						<rectangle x="98" y="419" width="734" height="45" color="0x40ffffff"/>
 
-						<label text="输出文件名" x="115" y="201" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
-						<label text="最终视频的文件名" x="116" y="218" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+						<label text="输出文件名" x="115" y="201" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
+						<label text="最终视频的文件名" x="116" y="218" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 						
 						<button x="752" y="204" onClick="outputBrowseClickHandler">
 							<upState><image source="btnBrowseUp"/></upState>
@@ -326,17 +326,17 @@
 						</button>
 
 						<image source="textFieldBig" x="438" y="204" />
-						<textBox width="312" x="438" y="204" textX="8" textY="1" font="AdvoCut_10pt_st" size="10" bold="true" color="0x425137" name="outputFileBox"/>
+						<textBox width="312" x="438" y="204" textX="8" textY="1" font="AdvoCut_10pt_st" size="10" bold="true" color="0x000000" name="outputFileBox"/>
 						
 						<image source="dummybar" x="97" y="237"/>
 						
-						<label text="视频尺寸" x="115" y="246" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
-						<label text="最终视频的宽高（像素）" x="116" y="263" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+						<label text="视频尺寸" x="115" y="246" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
+						<label text="最终视频的宽高（像素）" x="116" y="263" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 
-						<label text="宽：" x="437" y="252" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
+						<label text="宽：" x="437" y="252" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
 						<numericStepper x="480" y="249" textX="8" textY="1" font="AdvoCut_10pt_st" size="10" color="0x425137" name="widthStepper" minimum="8"  step="2">
 							<image source="textFieldSmall"/>
-							<textBox width="66" textX="8" textY="2" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+							<textBox width="66" textX="8" textY="2" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 							<incButton>
 								<button x="88" y="0">
 									<upState><image source="btnIncUp"/></upState>
@@ -353,10 +353,10 @@
 							</decButton>
 						</numericStepper>
 
-						<label text="高：" x="632" y="252" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
+						<label text="高：" x="632" y="252" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
 						<numericStepper x="680" y="249" textX="8" textY="1" font="AdvoCut_10pt_st" size="10" color="0x425137" name="heightStepper" minimum="8"  step="2">
 							<image source="textFieldSmall"/>
-								<textBox width="66" textX="8" textY="2" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+								<textBox width="66" textX="8" textY="2" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 							<incButton>
 								<button x="88" y="0">
 									<upState><image source="btnIncUp"/></upState>
@@ -384,11 +384,11 @@
 
 						<image source="dummybar" x="97" y="282"/>
 						
-						<label text="缩放方式" x="115" y="291" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
-						<label text="调整 SWF 如何缩放以适配视频尺寸" x="116" y="308" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+						<label text="缩放方式" x="115" y="291" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
+						<label text="调整 SWF 如何缩放以适配视频尺寸" x="116" y="308" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 
 						<radioGroup name="scaleModeGroup"/>
-						<label text="裁剪" x="464" y="296" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137"/>
+						<label text="裁剪" x="464" y="296" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x000000"/>
 						<radioButton x="438" y="294" group="scaleModeGroup" selected="true" name="cropButton">
 							<hitArea><rectangle x="0" y="0" width="100" height="23"/></hitArea>
 							<upState><image source="btnRadioUp"/></upState>
@@ -399,7 +399,7 @@
 							<selectedDownState><image source="btnRadioDown"/></selectedDownState>
 						</radioButton>
 
-						<label text="加黑边" x="594" y="296" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137"/>
+						<label text="加黑边" x="594" y="296" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x000000"/>
 						<radioButton x="568" y="294" group="scaleModeGroup" name="letterboxButton">
 							<hitArea><rectangle x="0" y="0" width="100" height="23"/></hitArea>
 							<upState><image source="btnRadioUp"/></upState>
@@ -410,7 +410,7 @@
 							<selectedDownState><image source="btnRadioDown"/></selectedDownState>
 						</radioButton>
 						
-						<label text="拉伸铺满" x="744" y="296" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137"/>
+						<label text="拉伸铺满" x="744" y="296" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x000000"/>
 						<radioButton x="718" y="294" group="scaleModeGroup"  name="exactFitButton">
 							<hitArea><rectangle x="0" y="0" width="100" height="23"/></hitArea>
 							<upState><image source="btnRadioUp"/></upState>
@@ -423,8 +423,8 @@
 
 						<image source="dummybar" x="97" y="327"/>
 						
-						<label text="透明背景" x="115" y="336" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
-						<label text="带 Alpha 通道渲染（保留透明）" x="116" y="353" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+						<label text="透明背景" x="115" y="336" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
+						<label text="带 Alpha 通道渲染（保留透明）" x="116" y="353" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 						
 						<checkBox x="438" y="339" selected="false" name="transparentBgCheckBox">
 							<upState><image source="btnCheckUp"/></upState>
@@ -442,8 +442,8 @@
 							<nub property="x"><image source="btnSliderNubOver" y="2"/></nub>
 						</slider>
 						
-						<label text="视频编码" x="115" y="381" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
-						<label text="选择视频压缩方式" x="116" y="398" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+						<label text="视频编码" x="115" y="381" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
+						<label text="选择视频压缩方式" x="116" y="398" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 						
 						<!--<image x="438" y="387" source="listBoxBigBG"/>
 						<listBox x="438" y="387" name="codecListBox" />-->
@@ -452,8 +452,8 @@
 						<selectBox x="438" y="384" name="codecSelectBox" />
 						
 						
-						<label text="视频码率" x="115" y="426" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
-						<label text="数值越高，画质越好、文件越大" x="116" y="443" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+						<label text="视频码率" x="115" y="426" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
+						<label text="数值越高，画质越好、文件越大" x="116" y="443" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 						
 
 						
@@ -471,11 +471,11 @@
 						<rectangle x="98" y="379" width="734" height="45" color="0x40ffffff"/>
 						<rectangle x="98" y="424" width="734" height="45" color="0xa6ffffff"/>
 						
-						<label text="音频来源" x="115" y="226" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
-						<label text="选择音频来源" x="116" y="243" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+						<label text="音频来源" x="115" y="226" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
+						<label text="选择音频来源" x="116" y="243" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 						
 						<radioGroup name="audioGroup"/>
-						<label text="无音频" x="464" y="206" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137"/>
+						<label text="无音频" x="464" y="206" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x000000"/>
 						<radioButton x="438" y="204" group="audioGroup" name="noAudioButton">
 							<hitArea><rectangle x="0" y="0" width="300" height="23"/></hitArea>
 							<upState><image source="btnRadioUp"/></upState>
@@ -486,7 +486,7 @@
 							<selectedDownState><image source="btnRadioDown"/></selectedDownState>
 						</radioButton>
 						
-						<label text="从 SWF 中提取" x="464" y="233" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137"/>
+						<label text="从 SWF 中提取" x="464" y="233" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x000000"/>
 						<radioButton x="438" y="231" selected="true" group="audioGroup" name="swfAudioButton">
 							<hitArea><rectangle x="0" y="0" width="300" height="23"/></hitArea>
 							<upState><image source="btnRadioUp"/></upState>
@@ -497,7 +497,7 @@
 							<selectedDownState><image source="btnRadioDown"/></selectedDownState>
 						</radioButton>
 						
-						<label text="外部音轨" x="464" y="260" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137"/>
+						<label text="外部音轨" x="464" y="260" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x000000"/>
 						<radioButton x="438" y="258" group="audioGroup" name="externalAudioButton">
 							<hitArea><rectangle x="0" y="0" width="300" height="23"/></hitArea>
 							<upState><image source="btnRadioUp"/></upState>
@@ -511,11 +511,11 @@
 						<image source="dummybar" x="97" y="287"/>
 						
 						<container name="externalAudioContainer">
-							<label text="外部音轨文件" x="115" y="296" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
-							<label text="浏览选择视频用的音轨" x="116" y="313" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+							<label text="外部音轨文件" x="115" y="296" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
+							<label text="浏览选择视频用的音轨" x="116" y="313" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 							
 							<image source="textFieldBig" x="438" y="299" />
-							<textBox width="312" x="438" y="299" textX="8" textY="1" font="AdvoCut_10pt_st" size="10" bold="true" color="0x425137" name="externalAudioFileBox" />
+							<textBox width="312" x="438" y="299" textX="8" textY="1" font="AdvoCut_10pt_st" size="10" bold="true" color="0x000000" name="externalAudioFileBox" />
 							
 							<button x="752" y="299" onClick="audioBrowseClickHandler">
 								<upState><image source="btnBrowseUp"/></upState>
@@ -526,11 +526,11 @@
 						
 						<image source="dummybar" x="97" y="332"/>
 						
-						<label text="声道" x="115" y="341" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
-						<label text="声道数量" x="116" y="358" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+						<label text="声道" x="115" y="341" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
+						<label text="声道数量" x="116" y="358" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 						
 						<radioGroup name="audioChannelGroup"/>
-						<label text="单声道" x="464" y="346" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137"/>
+						<label text="单声道" x="464" y="346" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x000000"/>
 						<radioButton x="438" y="344" group="audioChannelGroup" name="monoRadioButton">
 							<hitArea><rectangle x="0" y="0" width="100" height="23"/></hitArea>
 							<upState><image source="btnRadioUp"/></upState>
@@ -541,7 +541,7 @@
 							<selectedDownState><image source="btnRadioDown"/></selectedDownState>
 						</radioButton>
 
-						<label text="立体声" x="564" y="346" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137"/>
+						<label text="立体声" x="564" y="346" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x000000"/>
 						<radioButton x="538" y="344" group="audioChannelGroup" selected="true">
 							<hitArea><rectangle x="0" y="0" width="100" height="23"/></hitArea>
 							<upState><image source="btnRadioUp"/></upState>
@@ -559,8 +559,8 @@
 							<nub property="x"><image source="btnSliderNubOver" y="2"/></nub>
 						</slider>
 						
-						<label text="音频编码" x="115" y="388" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
-						<label text="选择音频压缩方式" x="116" y="405" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+						<label text="音频编码" x="115" y="388" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
+						<label text="选择音频压缩方式" x="116" y="405" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 						
 						<!--<image x="438" y="394" source="listBoxBigBG"/>
 						<listBox x="438" y="394" name="audioCodecListBox" />-->
@@ -569,8 +569,8 @@
 												
 						<selectBox x="438" y="389" name="audioCodecSelectBox" />
 						
-						<label text="音频码率" x="115" y="431" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
-						<label text="数值越高，画质越好、文件越大" x="116" y="448" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+						<label text="音频码率" x="115" y="431" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
+						<label text="数值越高，画质越好、文件越大" x="116" y="448" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 						
 						
 						
@@ -585,8 +585,8 @@
 						<rectangle x="98" y="379" width="734" height="45" color="0x40ffffff"/>
 						<rectangle x="98" y="424" width="734" height="45" color="0xa6ffffff"/>
 						
-						<label text="启用水印" x="115" y="201" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
-						<label text="在视频上叠加图片" x="116" y="218" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+						<label text="启用水印" x="115" y="201" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
+						<label text="在视频上叠加图片" x="116" y="218" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 						
 						<checkBox x="438" y="204" name="watermarkEnabledCheckBox">
 							<upState><image source="btnCheckUp"/></upState>
@@ -599,11 +599,11 @@
 						
 						<image source="dummybar" x="97" y="237"/>
 						<container name="watermarkSettingsContainer">
-							<label text="水印图片" x="115" y="246" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
-							<label text="浏览选择图片" x="116" y="263" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+							<label text="水印图片" x="115" y="246" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
+							<label text="浏览选择图片" x="116" y="263" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 							
 							<image source="textFieldBig" x="438" y="249" />
-							<textBox width="312" x="438" y="249" textX="8" textY="1" font="AdvoCut_10pt_st" size="10" bold="true" color="0x425137" name="watermarkFileBox" />
+							<textBox width="312" x="438" y="249" textX="8" textY="1" font="AdvoCut_10pt_st" size="10" bold="true" color="0x000000" name="watermarkFileBox" />
 							
 							<button x="752" y="249" onClick="overlayBrowseClickHandler">
 								<upState><image source="btnBrowseUp"/></upState>
@@ -613,8 +613,8 @@
 							
 							<image source="dummybar" x="97" y="282"/>
 							
-							<label text="对齐位置" x="115" y="316" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
-							<label text="设定水印在画面中的位置" x="116" y="333" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+							<label text="对齐位置" x="115" y="316" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
+							<label text="设定水印在画面中的位置" x="116" y="333" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 							
 							<radioGroup name="alignmentGroup"/>
 							<radioButton x="438" y="299" group="alignmentGroup">
@@ -694,8 +694,8 @@
 						
 							<image source="dummybar" x="97" y="378"/>
 							
-							<label text="大小" x="115" y="386" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
-							<label text="设定水印大小" x="116" y="403" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+							<label text="大小" x="115" y="386" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
+							<label text="设定水印大小" x="116" y="403" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 							
 							<slider x="438" y="393" minimum="0" maximum="4" step=".01" labelX="211" labelY="0" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137" labelFunc="alphaSliderFunc" name="watermarkSizeSlider" value="1.0">
 								<image source="sliderTrack"/>
@@ -704,8 +704,8 @@
 							
 							<image source="dummybar" x="97" y="422"/>
 							
-							<label text="透明度" x="115" y="431" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x425137"/>
-							<label text="设定水印不透明度" x="116" y="448" font="AdvoCut_10pt_st" size="10" color="0x425137"/>
+							<label text="透明度" x="115" y="431" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
+							<label text="设定水印不透明度" x="116" y="448" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 							
 							<slider x="438" y="438" minimum="0" maximum="1" step=".01" labelX="211" labelY="0" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137" labelFunc="alphaSliderFunc" name="watermarkAlphaSlider" value="1.0">
 								<image source="sliderTrack"/>
@@ -745,20 +745,20 @@
 				
 				<image source="txtComplete" x="312" y="194"/>
 
-				<label align="right" width="220" text="你的视频：" x="197" y="234" font="Swis721 Cn BT" letterSpacing="1" size="13" bold="true" color="0x7E9D4F"/>
+				<label align="right" width="220" text="你的视频：" x="197" y="234" font="Swis721 Cn BT" letterSpacing="1" size="13" bold="true" color="0x000000"/>
 				<label x="437" y="234" font="Swis721 Cn BT" letterSpacing="1" size="13" bold="true" color="0xFF9900" name="videoNameText" />
-				<label text="点击打开视频" x="438" y="247" font="AdvoCut_10pt_st" size="10" bold="false" color="0x7E9D4F"/>
+				<label text="点击打开视频" x="438" y="247" font="AdvoCut_10pt_st" size="10" bold="false" color="0x000000"/>
 				<button onClick="videoNameClickHandler">
 					<hitArea><rectangle x="437" y="234" width="300" height="40" depth="1"/></hitArea>
 				</button>
 				
-				<label align="right" width="220" text="占用空间：" x="197" y="274" font="Swis721 Cn BT" letterSpacing="1" size="13" bold="true" color="0x7E9D4F"/>
+				<label align="right" width="220" text="占用空间：" x="197" y="274" font="Swis721 Cn BT" letterSpacing="1" size="13" bold="true" color="0x000000"/>
 				<label x="437" y="274" font="Swis721 Cn BT" letterSpacing="1" size="13" bold="true" color="0xFFFFFF" name="fileSizeText" />
 				
-				<label align="right" width="220" text="转换耗时：" x="197" y="304" font="Swis721 Cn BT" letterSpacing="1" size="13" bold="true" color="0x7E9D4F"/>
+				<label align="right" width="220" text="转换耗时：" x="197" y="304" font="Swis721 Cn BT" letterSpacing="1" size="13" bold="true" color="0x000000"/>
 				<label x="437" y="304" font="Swis721 Cn BT" letterSpacing="1" size="13" bold="true" color="0xFFFFFF" name="timeText"/>
 				
-				<label x="96" y="486" font="Swis721 Cn BT" letterSpacing="1" size="13" bold="true" color="0x425137" text="转换完成！"/>
+				<label x="96" y="486" font="Swis721 Cn BT" letterSpacing="1" size="13" bold="true" color="0x000000" text="转换完成！"/>
 
 				<image source="progressBar" x="101" y="509"/>
 				
