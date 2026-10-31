@@ -797,7 +797,7 @@
 		<container name="aboutBox" visible="false">
 			<image source="killBg" x="10" y="10" />
 			<image source="aboutBoxLights" x="127" y="117" />
-			<label alpha=".25" text="Swivel ©2013 Newgrounds.com, Inc.\nSwivel uses software from the FFmpeg project, licensed under the GPLv3.\nAll logos and trademarks are the property of their respective owners." width="800" height="60" x="50" y="496" color="0xffffff" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" align="center" />
+			<label alpha=".25" text="Swivel ©2013 Newgrounds.com, Inc.\nSwivel 使用了 FFmpeg 项目的软件，遵循 GPLv3 许可证。\n所有标识与商标归各自所有者所有。" width="800" height="60" x="50" y="496" color="0xffffff" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" align="center" />
 			<button onClick="aboutCloseHandler">
 				<hitArea><rectangle x="0" y="0" width="920" height="580"/></hitArea>
 			</button>
