@@ -284,7 +284,7 @@
 							<label text="渲染质量" x="115" y="369" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
 							<label text="控制舞台的渲染质量" x="116" y="386" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 							
-							<slider x="438" y="376" minimum="0" maximum="2" step="1" labelX="211" labelY="0" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137" labelFunc="qualitySliderFunc" name="qualitySlider">
+							<slider x="438" y="376" minimum="0" maximum="2" step="1" labelX="211" labelY="0" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x000000" labelFunc="qualitySliderFunc" name="qualitySlider">
 								<image source="sliderTrack"/>
 								<nub property="x"><image source="btnSliderNubOver" y="2"/></nub>
 							</slider>
@@ -334,7 +334,7 @@
 						<label text="最终视频的宽高（像素）" x="116" y="263" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 
 						<label text="宽：" x="437" y="252" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
-						<numericStepper x="480" y="249" textX="8" textY="1" font="AdvoCut_10pt_st" size="10" color="0x425137" name="widthStepper" minimum="8"  step="2">
+						<numericStepper x="480" y="249" textX="8" textY="1" font="AdvoCut_10pt_st" size="10" color="0x000000" name="widthStepper" minimum="8"  step="2">
 							<image source="textFieldSmall"/>
 							<textBox width="66" textX="8" textY="2" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 							<incButton>
@@ -354,7 +354,7 @@
 						</numericStepper>
 
 						<label text="高：" x="632" y="252" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
-						<numericStepper x="680" y="249" textX="8" textY="1" font="AdvoCut_10pt_st" size="10" color="0x425137" name="heightStepper" minimum="8"  step="2">
+						<numericStepper x="680" y="249" textX="8" textY="1" font="AdvoCut_10pt_st" size="10" color="0x000000" name="heightStepper" minimum="8"  step="2">
 							<image source="textFieldSmall"/>
 								<textBox width="66" textX="8" textY="2" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 							<incButton>
@@ -437,7 +437,7 @@
 						
 						<image source="dummybar" x="97" y="372"/>
 						
-						<slider x="438" y="432" minimum="262144" maximum="25165824" step="512" labelX="211" labelY="0" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137" labelFunc="videoBitrateLabelFunc" name="videoBitrateSlider" value="4194304">
+						<slider x="438" y="432" minimum="262144" maximum="25165824" step="512" labelX="211" labelY="0" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x000000" labelFunc="videoBitrateLabelFunc" name="videoBitrateSlider" value="4194304">
 							<image source="sliderTrack"/>
 							<nub property="x"><image source="btnSliderNubOver" y="2"/></nub>
 						</slider>
@@ -554,7 +554,7 @@
 						
 						<image source="dummybar" x="97" y="379"/>
 						
-						<slider x="438" y="437" minimum="65536" maximum="327680" step="16384" labelX="211" labelY="0" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137" labelFunc="audioBitrateLabelFunc" name="audioBitrateSlider" value="131072">
+						<slider x="438" y="437" minimum="65536" maximum="327680" step="16384" labelX="211" labelY="0" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x000000" labelFunc="audioBitrateLabelFunc" name="audioBitrateSlider" value="131072">
 							<image source="sliderTrack"/>
 							<nub property="x"><image source="btnSliderNubOver" y="2"/></nub>
 						</slider>
@@ -697,7 +697,7 @@
 							<label text="大小" x="115" y="386" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
 							<label text="设定水印大小" x="116" y="403" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 							
-							<slider x="438" y="393" minimum="0" maximum="4" step=".01" labelX="211" labelY="0" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137" labelFunc="alphaSliderFunc" name="watermarkSizeSlider" value="1.0">
+							<slider x="438" y="393" minimum="0" maximum="4" step=".01" labelX="211" labelY="0" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x000000" labelFunc="alphaSliderFunc" name="watermarkSizeSlider" value="1.0">
 								<image source="sliderTrack"/>
 								<nub property="x"><image source="btnSliderNubOver" y="2"/></nub>
 							</slider>
@@ -707,7 +707,7 @@
 							<label text="透明度" x="115" y="431" font="Swis721 Cn BT" letterSpacing="1" size="14" bold="true" color="0x000000"/>
 							<label text="设定水印不透明度" x="116" y="448" font="AdvoCut_10pt_st" size="10" color="0x000000"/>
 							
-							<slider x="438" y="438" minimum="0" maximum="1" step=".01" labelX="211" labelY="0" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x425137" labelFunc="alphaSliderFunc" name="watermarkAlphaSlider" value="1.0">
+							<slider x="438" y="438" minimum="0" maximum="1" step=".01" labelX="211" labelY="0" font="Swis721 Cn BT" letterSpacing="1" size="12" bold="true" color="0x000000" labelFunc="alphaSliderFunc" name="watermarkAlphaSlider" value="1.0">
 								<image source="sliderTrack"/>
 								<nub property="x"><image source="btnSliderNubOver" y="2"/></nub>
 							</slider>
@@ -721,7 +721,7 @@
 				<image source="bgConverting" x="0" y="0"/>
 				<scaledImage name="_previewImage" x="114" y="64" width="702" height="395" />
 				
-				<label x="96" y="486" font="Swis721 Cn BT" letterSpacing="1" size="13" bold="true" color="0x425137" name="progressText" />
+				<label x="96" y="486" font="Swis721 Cn BT" letterSpacing="1" size="13" bold="true" color="0x000000" name="progressText" />
 				<progressBar x="101" y="509" minimum="0" maximum="1" step="0" labelX="9999" name="progressBar">
 					<nub property="width"><image source="progressBar"/></nub>
 				</progressBar>
@@ -810,7 +810,7 @@
 				<hitArea><rectangle x="0" y="0" width="90" height="32"/></hitArea>
 				<overState><image source="btnLicenseOver"/></overState>
 			</button>
-			<label name="versionText" x="260" y="191" font="AdvoCut_10pt_st" size="10" bold="true" color="0x404D35" align="right" width="150" />
+			<label name="versionText" x="260" y="191" font="AdvoCut_10pt_st" size="10" bold="true" color="0x000000" align="right" width="150" />
 			<label name="creditsText" x="430" y="158" width="270" height="1500" font="AdvoCut_10pt_st" size="10" bold="true" color="0xffffff" align="center" wordWrap="true"
 			text="SWIVEL\nSWF-to-Video Converter\n©2012-2017 Newgrounds.com, Inc.\n\nDeveloped by Mike Welsh\nInterface by Stamper\nVox by Hania Lee\n\nDeveloped using Haxe and Adobe AIR\n\nThis software utilizes the FFmpeg project with other supporting libraries, including libx264, libtheora, and libvorbis. These projects are property of their respective owners, and are NOT owned by Newgrounds.com, Inc. These projects are licensed under their respective licenses, compatible with the GPLv3. To view the full licenses, click the License button.\n\nVery special thanks to the maintainers and contributors of FFmpeg and these projects. This program would not be possible without your awesome work!\n\n\nTesters\n\nChris 'Oney' O'Neill\nChristina 'Jaxxy' Tomar\nDon Greger\nMarco 'Evil-Dog' Arsenault\nHarry Partridge\nJeff Bandelin\nJeremy Zaczek\nJonas Boda\nMindChamber\nJosh 'Tomamoto' Tomar\nLuka Marcetic\nMark Schneider\nMatt 'Krinkels' Jolly\nMick 'RicePirate' Lauer\nMichael Swain\nSteve 'SardonicSamurai' V\nShawn 'Afro-Ninja' Tanner\nNick Pasto\nZach 'PsychicPebbles' Hadel\nRobert Lovelett\nRyan 'rtil' Miller\nSpazkid\nWade Fulp\nZachary Lew\nMatt 'Patonion' Paton\nRyan 'MiddleFingerRings' Maddox\nAdam Phillips\nAnyone I forgot\n\nVery Special Thanks\n\nAshley 'Jellybean' Aberg\nTom Fulp\nSushi (the cat)\nRobotron 2084\nRob Lovelett\nDavid Robbins\ncaptin of cats\nMike 'Spiked3' Partain\nJustin Welsh\nTim Sanker\nDoylestown 3rd Strike"/>
 			
